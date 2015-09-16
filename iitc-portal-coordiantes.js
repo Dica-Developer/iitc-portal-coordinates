@@ -34,7 +34,6 @@ function wrapper(plugin_info) {
                 var portal = window.portals[portalId];
                 allMyShinyPortals[portalId] = portal.options.data;
             });
-            console.log(Object.keys(allMyShinyPortals).length + ' shiny portals collected!');
             downloadButton.show();
         });
     }
